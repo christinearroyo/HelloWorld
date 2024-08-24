@@ -9,7 +9,8 @@ namespace HelloWorld
     {
         static void Main(string[] args) 
             {
-           
+
+            // [data types],[identifier],= [value];
             string FirstName = "User: Christine ";
             char MiddleInitial = 'R';
             string LastName = " Arroyo";
@@ -29,7 +30,7 @@ namespace HelloWorld
             Console.WriteLine(new_num);
             Console.WriteLine();
 
-
+            // 3 ways to write conditionals ^^ (conditional: 1)
             Console.WriteLine("Tin's Big Giveway");
                 Console.Write("Choose a door: 1, 2 or 3: ");
                 string userValue = Console.ReadLine();
@@ -55,7 +56,7 @@ namespace HelloWorld
             Console.ReadLine();
 
           
-
+            // conditional 2 (comment) and 3
             Console.WriteLine("Secret Door");
             Console.Write("Choose Door 1, 2,and 3: ");
             string userChoice = Console.ReadLine();
