@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using Microsoft.Win32.SafeHandles;
 using System;
 
 namespace HelloWorld
@@ -50,9 +51,24 @@ namespace HelloWorld
             }
 
             Console.WriteLine(message);
+            Console.WriteLine("Press Enter");
             Console.ReadLine();
 
-           
+          
+
+            Console.WriteLine("Secret Door");
+            Console.Write("Choose Door 1, 2,and 3: ");
+            string userChoice = Console.ReadLine();
+
+            string message1 = (userChoice == "1") ? "go to heaven" : "go to hell";
+
+            //Console.Write("You will ");
+            //Console.Write(message1);
+            //Console.Write(".");
+
+            Console.WriteLine("You entered: {0}, therefore you will {1}.", userChoice, message1);
+            Console.ReadLine();
+
             }
     }
 }
