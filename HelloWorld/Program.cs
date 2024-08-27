@@ -8,10 +8,10 @@ namespace HelloWorld
 {
     class Program
     {
-        static void Main(string[] args) 
-            {
+        static void Main(string[] args)
+        {
 
-            // [data types],[identifier],= [value];
+            // [data types],[identifier],= [value]; "DATA TYPES AND VARIABLES"
             /*
             string FirstName = "User: Christine ";
             char MiddleInitial = 'R';
@@ -31,7 +31,7 @@ namespace HelloWorld
             Console.WriteLine(num);
             Console.WriteLine(new_num);
             Console.WriteLine();
-            */
+           
 
             Console.WriteLine("What's your name?");
             Console.Write("type your first name: ");
@@ -48,8 +48,10 @@ namespace HelloWorld
             Console.WriteLine();
             Console.Write("Hello, " + FirstName + " " + LastName);
             Console.ReadLine();
+            */
 
-            // 3 ways to write conditionals ^^ (conditional: 1)
+            /*
+            // 3 ways to write conditionals ^^ (conditional: 1) "CONDITIONALS"
             Console.WriteLine();
             Console.WriteLine("Big Giveway");
                 Console.Write("Choose a door: 1, 2 or 3: ");
@@ -74,7 +76,7 @@ namespace HelloWorld
             Console.WriteLine(message);
             Console.WriteLine("Press Enter");
             Console.ReadLine();
-
+            
           
             // conditional 2 (comment) and 3
             Console.WriteLine("Secret Door");
@@ -89,14 +91,35 @@ namespace HelloWorld
 
             Console.WriteLine("You entered: {0}, therefore you will {1}.", userChoice, message1);
             Console.ReadLine();
+            */
 
-            //for iteration statement.
+            /*
+            //for iteration statement. "ITERATION"
             for (int i = 0; i < 10; i++)
                 {
                     Console.WriteLine(i);
                     if (i == 7);
                 }
                     Console.ReadLine();
+            */
+
+            /*
+            //"ARRAYS"
+            string[] names = new string[] { "Christine", "Astrid", "Cypherie", "Tintne", "Ceesiw" };
+            foreach (string name in names)
+            Console.WriteLine(name);
+            Console.ReadLine();
+            */
+
+            int[] numbers = new int[4];
+
+            numbers[0] = 10;
+            numbers[1] = 16;
+            numbers[2] = 25;
+            numbers[3] = 50;
+            
+            Console.WriteLine(numbers.Length);
+            Console.ReadLine ();    
             }
     }
 }
