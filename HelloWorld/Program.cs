@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using Microsoft.VisualBasic;
 using Microsoft.Win32.SafeHandles;
 using System;
 
@@ -11,6 +12,7 @@ namespace HelloWorld
             {
 
             // [data types],[identifier],= [value];
+            /*
             string FirstName = "User: Christine ";
             char MiddleInitial = 'R';
             string LastName = " Arroyo";
@@ -29,9 +31,27 @@ namespace HelloWorld
             Console.WriteLine(num);
             Console.WriteLine(new_num);
             Console.WriteLine();
+            */
+
+            Console.WriteLine("What's your name?");
+            Console.Write("type your first name: ");
+            string FirstName;
+            FirstName = Console.ReadLine();
+
+            //string LastName;
+            //Console.Write("type your lastname: ");
+            //LastName = Console.ReadLine();
+
+            Console.Write("type your lastname: ");
+            string LastName = Console.ReadLine();
+
+            Console.WriteLine();
+            Console.Write("Hello, " + FirstName + " " + LastName);
+            Console.ReadLine();
 
             // 3 ways to write conditionals ^^ (conditional: 1)
-            Console.WriteLine("Tin's Big Giveway");
+            Console.WriteLine();
+            Console.WriteLine("Big Giveway");
                 Console.Write("Choose a door: 1, 2 or 3: ");
                 string userValue = Console.ReadLine();
 
@@ -70,6 +90,13 @@ namespace HelloWorld
             Console.WriteLine("You entered: {0}, therefore you will {1}.", userChoice, message1);
             Console.ReadLine();
 
+            //for iteration statement.
+            for (int i = 0; i < 10; i++)
+                {
+                    Console.WriteLine(i);
+                    if (i == 7);
+                }
+                    Console.ReadLine();
             }
     }
 }
