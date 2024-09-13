@@ -132,15 +132,7 @@ namespace HelloWorld
             }
             */
 
-            int X = 1;
-            int Y = 1;
-            int Z = 1;
-
-            Console.WriteLine ( (10 + 23) / (4 * 5) );
-            Console.WriteLine ( 2 * (X * Y) + 2 * (X) / 3 * (Z) );
-            Console.WriteLine(1 + ( X ) / (1 / 6) + (1 / 8));
-            Console.WriteLine ( (X) + (Y) / (4 + 3) * (12 + 2) );
-            Console.WriteLine ( (Y * X * Z) / ( (X) ^ 2 - (Y) ^ 2) + (Y) / ( 4 / 2 - (Z) ) + (X) );
+       
         }
     }
 }
