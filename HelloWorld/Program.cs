@@ -111,6 +111,7 @@ namespace HelloWorld
             Console.ReadLine();
             */
 
+            /*
             int[] numbers = new int[4];
 
             numbers[0] = 10;
@@ -119,7 +120,27 @@ namespace HelloWorld
             numbers[3] = 50;
             
             Console.WriteLine(numbers.Length);
-            Console.ReadLine ();    
+            Console.ReadLine ();
+            */
+
+            /*
+            int n = 10; // You can change this value to make a larger or smaller triangle
+            for (int i = 1; i <= n; i++)
+            {
+                Console.Write(new string(' ', n - i));
+                Console.WriteLine(new string('*', 2 * i - 1))
             }
+            */
+
+            int X = 1;
+            int Y = 1;
+            int Z = 1;
+
+            Console.WriteLine ( (10 + 23) / (4 * 5) );
+            Console.WriteLine ( 2 * (X * Y) + 2 * (X) / 3 * (Z) );
+            Console.WriteLine(1 + ( X ) / (1 / 6) + (1 / 8));
+            Console.WriteLine ( (X) + (Y) / (4 + 3) * (12 + 2) );
+            Console.WriteLine ( (Y * X * Z) / ( (X) ^ 2 - (Y) ^ 2) + (Y) / ( 4 / 2 - (Z) ) + (X) );
+        }
     }
 }
