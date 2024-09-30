@@ -133,6 +133,11 @@ namespace HelloWorld
             }
             */
 
+            DateTime myTime = DateTime.Now;
+            Console.WriteLine(myTime.ToBinary String());
+
+            Console.ReadLine();
+
             
 
         }
