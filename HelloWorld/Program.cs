@@ -9,8 +9,33 @@ namespace HelloWorld
 {
     class Program
     {
+        private static void MyMethod(string nickName)
+        {
+            Console.WriteLine("Hello there! Whats your name?");
+            string userInput = Console.ReadLine();
+            Console.WriteLine("Hi! " + userInput);
+            Console.WriteLine("New Student: " + userInput);
+            Console.WriteLine("can be called " + nickName);
+            Console.ReadLine();
+
+            Console.WriteLine("your age?");
+            int userAge = int.Parse(Console.ReadLine());
+
+            if (userAge == 18)
+            {
+                Console.WriteLine("shes an adult");
+            }
+            else {
+                Console.WriteLine("shes just a minor");
+            }
+
+        }
         static void Main(string[] args)
         {
+            MyMethod(nickName: "Tin");
+   
+  
+
 
             // [data types],[identifier],= [value]; "DATA TYPES AND VARIABLES"
             /*
@@ -133,15 +158,12 @@ namespace HelloWorld
             }
             */
 
+            /*
             DateTime myTime = DateTime.Now;
             Console.WriteLine(myTime.ToBinary String());
 
             Console.ReadLine();
-
-
-
-
-
+            */
         }
     }
 }
