@@ -9,6 +9,7 @@ namespace HelloWorld
 {
     class Program
     {
+        /*method hide
         private static void MyMethod(string nickName)
         {
             Console.WriteLine("Hello there! Whats your name?");
@@ -28,13 +29,17 @@ namespace HelloWorld
             else {
                 Console.WriteLine("shes just a minor");
             }
+            Console.ReadLine();
 
         }
+        */
+
         static void Main(string[] args)
         {
+            /*
             MyMethod(nickName: "Tin");
-   
-  
+            */
+
 
 
             // [data types],[identifier],= [value]; "DATA TYPES AND VARIABLES"
@@ -164,6 +169,29 @@ namespace HelloWorld
 
             Console.ReadLine();
             */
+
+            Friend myFriend = new Friend();
+
+            myFriend.Name = "Hanna";
+            myFriend.Age = 20;
+            myFriend.isFriend = true;
+
+            Friend myOneFriend;
+            myOneFriend = myFriend;
+
+            Console.WriteLine("{0} {1} {2}",
+                myOneFriend.Name,
+                myOneFriend.Age,
+                myOneFriend.isFriend);
+
+            Console.ReadLine();
         }
+    }
+
+    class Friend
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public bool isFriend { get; set; }
     }
 }
