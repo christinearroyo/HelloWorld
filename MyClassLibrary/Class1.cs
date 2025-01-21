@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿/*
+using System.Net;
 
 namespace MyClassLibrary
 {
@@ -26,3 +27,4 @@ namespace MyClassLibrary
         }
     }
 }
+*/
